@@ -1,3 +1,10 @@
+import { hajjTours } from "@/lib/hajjTours";
+import ToursTable from "@/components/ToursTable";
+
 export default function HajjPage() {
-  return <></>;
+  return (
+    <div>
+      <ToursTable tours={hajjTours} />
+    </div>
+  );
 }
