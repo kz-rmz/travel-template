@@ -7,8 +7,8 @@ export default function NavButton({ link, isActive }) {
     <Link
       href={link.href}
       className={cn(
-        "px-3 py-1 text-black rounded-xl text-lg tracking-wide border border-gray-700",
-        isActive && "bg-sky-600 border-sky-600 text-white"
+        "px-3 py-1 text-slate-800 rounded-3xl text-lg tracking-wide border border-gray-200 hover:bg-gray-100",
+        isActive && "bg-sky-100 border-sky-300 text-sky-600 hover:bg-sky-100"
       )}
     >
       {link.name}

@@ -6,7 +6,7 @@ export const hajjTours = [
     duration: 7,
     hotel: "Mariot",
     meals: true,
-    description: "",
+    toHaram: 100,
   },
   {
     category: "standart",
@@ -15,7 +15,7 @@ export const hajjTours = [
     duration: 7,
     hotel: "Mariot",
     meals: false,
-    description: "",
+    toHaram: 100,
   },
   {
     category: "comfort",
@@ -24,7 +24,7 @@ export const hajjTours = [
     duration: 10,
     hotel: "Mariot",
     meals: true,
-    description: "",
+    toHaram: 100,
   },
   {
     category: "comfort",
@@ -33,7 +33,7 @@ export const hajjTours = [
     duration: 7,
     hotel: "Movenpick",
     meals: true,
-    description: "",
+    toHaram: 100,
   },
   {
     category: "premium",
@@ -42,7 +42,7 @@ export const hajjTours = [
     duration: 7,
     hotel: "Hayat",
     meals: true,
-    description: "",
+    toHaram: 100,
   },
   {
     category: "standart",
@@ -51,7 +51,7 @@ export const hajjTours = [
     duration: 14,
     hotel: "Hotel",
     meals: false,
-    description: "",
+    toHaram: 100,
   },
   {
     category: "standart",
@@ -60,6 +60,6 @@ export const hajjTours = [
     duration: 7,
     hotel: "Mariot",
     meals: true,
-    description: "",
+    toHaram: 100,
   },
 ];

@@ -3,9 +3,11 @@ import HeaderNavMenu from "./HeaderNavMenu";
 
 export default function AppHeader() {
   return (
-    <div className='flex w-full justify-between md:container mx-auto py-8 antialiased'>
-      <HeaderLogo />
-      <HeaderNavMenu />
-    </div>
+    <header className='w-full bg-sky-500 text-white'>
+      <div className='flex justify-between md:container mx-auto py-8 antialiased items-center'>
+        <HeaderLogo />
+        <HeaderNavMenu />
+      </div>
+    </header>
   );
 }

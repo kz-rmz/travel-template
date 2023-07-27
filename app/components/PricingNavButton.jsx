@@ -14,7 +14,11 @@ export default function PricingNavButtons({ link }) {
   return (
     <Link
       key={link.name}
-      className={cn("text-lg", isActive && "border-b-2 border-sky-600")}
+      className={cn(
+        "text-lg hover:border-b-2 hover:border-slate-400 text-slate-500",
+        isActive &&
+          "border-b-2 border-sky-500 text-slate-900 hover:border-b-2 hover:border-sky-700"
+      )}
       href={`/${segment}/${link.href}`}
       type='button'
     >
