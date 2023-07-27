@@ -7,7 +7,7 @@ import ToursNav from "./components/ToursNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HADJ/UMRA",
+  title: "Zam-zam",
   description: "Исламская туристическая компания",
 };
 
